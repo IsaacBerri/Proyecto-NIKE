@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Antonio', sans-serif;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+.cajaZapatos{
+    background-color: aqua;
+    height: 100vh;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+#Caja1{
+    background-image: url(../img/michael.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Caja1 h2{
+    color: white;
+    text-shadow: 1px -1px 0 red, -1px 2px 1px red, -2px 4px 1px red, -3px 6px 1px red, -4px 8px 1px rgba(206,89,55,0);
+}
+#Caja2{
+    background-image: url(../img/kobe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Caja2 h2{
+    color: white;
+    text-shadow: 1px -1px 0 purple, -1px 2px 1px purple, -2px 4px 1px purple, -3px 6px 1px purple, -4px 8px 1px rgba(206,89,55,0);
+}
+#Caja3{
+    background-image: url(../img/irving.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Caja3 h2{
+    color: white;
+    text-shadow: 1px -1px 0 grey, -1px 2px 1px gray, -2px 4px 1px grey, -3px 6px 1px gray, -4px 8px 1px rgba(206,89,55,0);
+}
+#Caja4{
+    background-image: url(../img/lebron.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Caja4 h2{
+    color: white;
+    text-shadow: 1px -1px 0 yellow, -1px 2px 1px yellow, -2px 4px 1px yellow, -3px 6px 1px yellow, -4px 8px 1px rgba(206,89,55,0);
+}
+
+#Caja1:hover{
+    transform: scale(0.9);
+		transition: 0.4s;
+}
+#Caja2:hover{
+    transform: scale(0.9);
+		transition: 0.4s;
+}
+#Caja3:hover{
+    transform: scale(0.9);
+		transition: 0.4s;
+}
+#Caja4:hover{
+    transform: scale(0.9);
+		transition: 0.4s;
+}
+
+/**************Media-queris**************/
+@media (min-width: 300px) and (max-width: 699px){
+    .cajaZapatos{
+        height: 25vh;
+    }
+
+    #Caja2{
+        background-position:top;
+        background-size: cover;
+    }
+    #Caja3{
+        background-position: center;
+        background-size: cover;
+    }
+}
+
