@@ -1,20 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
-body{
+.bodyIndex{
     background-color: black;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.bodyMichael{
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+}
+header a{
+    text-decoration: none;
 }
 .row{
     margin-right: 0;
     margin-left: 0;
-}
-.row a{
-    text-decoration: none;
-    color: black;
-    padding: 0;
 }
 
 .cajaZapatos{
@@ -29,6 +32,7 @@ body{
     background-image: url(../img/michael.jpg);
     background-position: center;
     background-size: cover;
+    grid-area: Caja1;
 }
 #Caja1 h2{
     color: white;
@@ -38,6 +42,7 @@ body{
     background-image: url(../img/kobe.jpg);
     background-position: center;
     background-size: cover;
+    grid-area: Caja2;
 }
 #Caja2 h2{
     color: white;
@@ -47,6 +52,7 @@ body{
     background-image: url(../img/irving.jpg);
     background-position: center;
     background-size: cover;
+    grid-area: Caja3;
 }
 #Caja3 h2{
     color: white;
@@ -56,6 +62,7 @@ body{
     background-image: url(../img/lebron.jpg);
     background-position: center;
     background-size: cover;
+    grid-area: Caja4;
 }
 #Caja4 h2{
     color: white;
@@ -79,19 +86,263 @@ body{
 		transition: 0.4s;
 }
 
-/**************Media-queris**************/
-@media (min-width: 300px) and (max-width: 699px){
-    .cajaZapatos{
-        height: 25vh;
-    }
-
-    #Caja2{
-        background-position:top;
-        background-size: cover;
-    }
-    #Caja3{
-        background-position: center;
-        background-size: cover;
-    }
+header{
+  display: grid;
+  grid-template-areas: 
+  "Caja1 Caja2 Caja3 Caja4"
+  "Caja1 Caja2 Caja3 Caja4"
+  "Caja1 Caja2 Caja3 Caja4"
+  "Caja1 Caja2 Caja3 Caja4";
 }
 
+
+
+
+
+
+/***********Inicio Del CSS De michael-jordan.html***********/
+.videoPrincipal{
+    position: relative;
+    height: 600px;
+}
+.videoPrincipal video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.gradiente{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(#FF0000, #ffffff);
+  opacity: 0.6;
+}
+.textoPrincipal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+}
+.textoPrincipal h1{
+    color: #000000;
+    font-size: 60px;
+    height: 300px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    animation: text linear 2000ms infinite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+@keyframes text {
+    0% {
+      text-shadow:
+        4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #ffffff,
+        -3px 3px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        -1px 1px 0 #ffffff
+      ;
+    }
+    25% {
+      text-shadow:
+        -4px -4px 0 #ffffff,
+        -3px -3px 0 #ffffff,
+        -2px -2px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        4px 4px 0 #da0641,
+        3px 3px 0 #da0641,
+        2px 2px 0 #da0641,
+        1px 1px 0 #da0641
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 #da0641,
+        -3px 3px 0 #da0641,
+        -2px 2px 0 #da0641,
+        -1px 1px 0 #da0641,
+        4px -4px 0 #ffffff,
+        3px -3px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        1px -1px 0 #ffffff
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 #ffffff,
+        3px 3px 0 #ffffff,
+        2px 2px 0 #ffffff,
+        1px 1px 0 #ffffff,
+        -4px -4px 0 #da0641,
+        -3px -3px 0 #da0641,
+        -2px -2px 0 #da0641,
+        -1px -1px 0 #da0641
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #ffffff,
+        -3px 3px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        -1px 1px 0 #ffffff
+      ;
+    }
+  }
+.textoPrincipal p{
+    display: flex;
+    height: 100x;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+nav{
+    background-color: #FF0000;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+.textoIntoductivoMichael{
+    text-align: center;
+    height: 300px;
+    padding: 30px;
+    margin: 50px;
+    color: black;
+    border: 2px black solid;
+    animation: box linear 2000ms infinite;
+}
+@keyframes box {
+    0% {
+      box-shadow:
+        4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #000000,
+        -3px 3px 0 #000000,
+        -2px 2px 0 #000000,
+        -1px 1px 0 #000000
+      ;
+    }
+    25% {
+      box-shadow:
+        -4px -4px 0 #000000,
+        -3px -3px 0 #000000,
+        -2px -2px 0 #000000,
+        -1px -1px 0 #000000,
+        4px 4px 0 #da0641,
+        3px 3px 0 #da0641,
+        2px 2px 0 #da0641,
+        1px 1px 0 #da0641
+      ;
+    }
+    50% {
+      box-shadow:
+        -4px 4px 0 #da0641,
+        -3px 3px 0 #da0641,
+        -2px 2px 0 #da0641,
+        -1px 1px 0 #da0641,
+        4px -4px 0 #ffffff,
+        3px -3px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        1px -1px 0 #ffffff
+      ;
+    }
+    75% {
+      box-shadow:
+        4px 4px 0 #000000,
+        3px 3px 0 #000000,
+        2px 2px 0 #000000,
+        1px 1px 0 #000000,
+        -4px -4px 0 #da0641,
+        -3px -3px 0 #da0641,
+        -2px -2px 0 #da0641,
+        -1px -1px 0 #da0641
+      ;
+    }
+    100% {
+      box-shadow:
+        4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #000000,
+        -3px 3px 0 #000000,
+        -2px 2px 0 #000000,
+        -1px 1px 0 #000000
+      ;
+    }
+  }
+.textoIntoductivoMichael h2{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.bannerJordans img{
+  width: 100%;
+  height: 500px;
+}
+.titulosDeJordans{
+  color: black;
+  font-size: 3rem;
+  animation: text linear 2000ms infinite;
+  margin: 30px;
+}
+.jordan-1-4-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.tarjetas img{
+  padding: 10px;
+}
+
+
+.buttonTarjetas{
+    padding: 5px;
+}
+
+
+
+/**************Media-queris**************/
+
+
+@media (min-width: 300px) and (max-width: 699px){
+    body header{
+      display: grid;
+      grid-template-areas: 
+      "Caja1"
+      "Caja2"
+      "Caja3"
+      "Caja4";
+    }
+    .cajaZapatos{
+      height: 25vh;
+    }
+    #Caja2{
+      background-position: top;
+    }
+    .textoIntoductivoMichael{
+      margin: 40px 0 40px 0;
+    }
+    .bannerJordan1 img{
+      height: 250px;
+    }
+}
