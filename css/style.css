@@ -308,7 +308,7 @@ nav{
 .tarjetas{
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .tarjetas img{
   padding: 10px;
@@ -342,7 +342,7 @@ nav{
     .textoIntoductivoMichael{
       margin: 40px 0 40px 0;
     }
-    .bannerJordan1 img{
+    .bannerJordans img{
       height: 250px;
     }
 }
