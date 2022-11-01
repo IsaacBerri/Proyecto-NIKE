@@ -12,6 +12,10 @@
   background-color: white;
   font-family: 'Oswald', sans-serif;
 }
+.bodyKobe{
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
 header a{
     text-decoration: none;
 }
@@ -95,11 +99,6 @@ header{
   "Caja1 Caja2 Caja3 Caja4";
 }
 
-
-
-
-
-
 /***********Inicio Del CSS De michael-jordan.html***********/
 .videoPrincipal{
     position: relative;
@@ -110,7 +109,7 @@ header{
     height: 600px;
     object-fit: cover;
 }
-.gradiente{
+.gradienteMichael{
   position: absolute;
   top: 0;
   width: 100%;
@@ -205,7 +204,7 @@ header{
     font-size: 30px;
     color: black;
 }
-nav{
+.navMichael{
     background-color: #FF0000;
 }
 .nav{
@@ -313,13 +312,257 @@ nav{
 .tarjetas img{
   padding: 10px;
 }
-
-
 .buttonTarjetas{
     padding: 5px;
+    background-color: #FF0000;
+}
+.footerMichael{
+  width: 100%;
+  height: 330px;
+  background-color: red;
+  position: relative;
+}
+.logoFooter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.navbarFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.navbar-nav a{
+  display: flex;
+  justify-content: center;
+}
+.redesSociales{
+  position: absolute;
+  bottom: 0;
+  color: black;
+  margin-bottom: 10px;
+}
+.redesSociales a{
+  padding-right: 20px;
+}
+.copyrightMichael{
+  background-color: #FF0000;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: #000000 2px solid;
+  border-bottom: #000000 2px solid;
+  padding: 5px;
+}
+.copyrightMichael h3{
+  font-size: 15px;
+}
+/***********Fin Del CSS De michael-jordan.html***********/
+
+/***********Inicio Del CSS De kobe-bryant.html***********/
+.gradienteKobe{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(#8F00FF, purple);
+  opacity: 0.6;
+}
+.textoPrincipalKobe{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+}
+.textoPrincipalKobe h1{
+  color: black;
+  font-size: 60px;
+  height: 300px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 100%;
+  animation: textKobe linear 2000ms infinite;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@keyframes textKobe {
+  0% {
+    text-shadow:
+      4px -4px 0 #9B00FF,
+      3px -3px 0 #9B00FF,
+      2px -2px 0 #9B00FF,
+      1px -1px 0 #9B00FF,
+      -4px 4px 0 #000000,
+      -3px 3px 0 #000000,
+      -2px 2px 0 #000000,
+      -1px 1px 0 #000000
+    ;
+  }
+  25% {
+    text-shadow:
+      -4px -4px 0 #000000,
+      -3px -3px 0 #000000,
+      -2px -2px 0 #000000,
+      -1px -1px 0 #000000,
+      4px 4px 0 #9B00FF,
+      3px 3px 0 #9B00FF,
+      2px 2px 0 #9B00FF,
+      1px 1px 0 #9B00FF
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 #9B00FF,
+      -3px 3px 0 #9B00FF,
+      -2px 2px 0 #9B00FF,
+      -1px 1px 0 #9B00FF,
+      4px -4px 0 #000000,
+      3px -3px 0 #000000,
+      2px -2px 0 #000000,
+      1px -1px 0 #000000
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 #000000,
+      3px 3px 0 #000000,
+      2px 2px 0 #000000,
+      1px 1px 0 #000000,
+      -4px -4px 0 #9B00FF,
+      -3px -3px 0 #9B00FF,
+      -2px -2px 0 #9B00FF,
+      -1px -1px 0 #9B00FF
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 #9B00FF,
+      3px -3px 0 #9B00FF,
+      2px -2px 0 #9B00FF,
+      1px -1px 0 #9B00FF,
+      -4px 4px 0 #000000,
+      -3px 3px 0 #000000,
+      -2px 2px 0 #000000,
+      -1px 1px 0 #000000
+    ;
+  }
+}
+.textoPrincipalKobe p{
+  display: flex;
+  height: 100x;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+}
+.navKobe{
+  background-color: purple;
+}
+.textoIntoductivoKobe{
+  text-align: center;
+    height: 300px;
+    padding: 30px;
+    margin: 50px;
+    color: black;
+    border: 2px black solid;
+    animation: boxKobe linear 2000ms infinite;
+}
+@keyframes boxKobe {
+  0% {
+    box-shadow:
+      4px -4px 0 #9B00FF,
+      3px -3px 0 #9B00FF,
+      2px -2px 0 #9B00FF,
+      1px -1px 0 #9B00FF,
+      -4px 4px 0 purple,
+      -3px 3px 0 purple,
+      -2px 2px 0 purple,
+      -1px 1px 0 purple
+    ;
+  }
+  25% {
+    box-shadow:
+      -4px -4px 0 purple,
+      -3px -3px 0 purple,
+      -2px -2px 0 purple,
+      -1px -1px 0 purple,
+      4px 4px 0 #9B00FF,
+      3px 3px 0 #9B00FF,
+      2px 2px 0 #9B00FF,
+      1px 1px 0 #9B00FF
+    ;
+  }
+  50% {
+    box-shadow:
+      -4px 4px 0 #9B00FF,
+      -3px 3px 0 #9B00FF,
+      -2px 2px 0 #9B00FF,
+      -1px 1px 0 #9B00FF,
+      4px -4px 0 purple,
+      3px -3px 0 purple,
+      2px -2px 0 purple,
+      1px -1px 0 purple
+    ;
+  }
+  75% {
+    box-shadow:
+      4px 4px 0 purple,
+      3px 3px 0 purple,
+      2px 2px 0 purple,
+      1px 1px 0 purple,
+      -4px -4px 0 #9B00FF,
+      -3px -3px 0 #9B00FF,
+      -2px -2px 0 #9B00FF,
+      -1px -1px 0 #9B00FF
+    ;
+  }
+  100% {
+    box-shadow:
+      4px -4px 0 #9B00FF,
+      3px -3px 0 #9B00FF,
+      2px -2px 0 #9B00FF,
+      1px -1px 0 #9B00FF,
+      -4px 4px 0 purple,
+      -3px 3px 0 purple,
+      -2px 2px 0 purple,
+      -1px 1px 0 purple
+    ;
+  }
+}
+.textoIntoductivoKobe h2{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.textoIntoductivoKobe p{
+  color: white;
 }
 
 
+
+.footerKobe{
+  width: 100%;
+  height: 330px;
+  background-color: purple;
+  position: relative;
+}
+
+.copyrightKobe{
+  background-color: purple;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: #000000 2px solid;
+  border-bottom: #000000 2px solid;
+  padding: 5px;
+}
+.copyrightKobe h3{
+  font-size: 15px;
+}
 
 /**************Media-queris**************/
 
@@ -338,6 +581,12 @@ nav{
     }
     #Caja2{
       background-position: top;
+    }
+    .textoPrincipal h1{
+      font-size: 35px;
+    }
+    .textoPrincipal p{
+      font-size: 20px;
     }
     .textoIntoductivoMichael{
       margin: 40px 0 40px 0;
