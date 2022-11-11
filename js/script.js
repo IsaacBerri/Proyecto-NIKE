@@ -51,25 +51,25 @@ let zapatosJordans = [
     id: "Jordan-6-Green",
     nombre: "Jordan 6 Electric Green",
     precio: 200,
-    imgURL: "../img/Jordan 6 Electric Green.jpg",
+    imgURL: "../img/jordan 6 electric green.jpg",
   },
   {
     id: "Jordan-6-Grey",
     nombre: "Jordan 6 Georgetown",
     precio: 171,
-    imgURL: "../img/Jordan 6 Georgetown.jpg",
+    imgURL: "../img/jordan 6 georgetown.jpg",
   },
   {
     id: "Jordan-6-Black",
     nombre: "Jordan 6 Infrared Black",
     precio: 239,
-    imgURL: "../img/Jordan 6 Infrared Black.jpg",
+    imgURL: "../img/jordan 6 infrared black.jpg",
   },
   {
     id: "Jordan-6-Travis-Scott",
     nombre: "Jordan 6 Travis Scott",
     precio: 390,
-    imgURL: "../img/Jordan 6 Travis Scott.jpg",
+    imgURL: "../img/jordan 6 travis scott.jpg",
   },
 ];
 
