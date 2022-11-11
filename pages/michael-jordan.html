@@ -17,7 +17,13 @@
   </head>
   <body class="bodyMichael">
     <div class="videoPrincipal">
-      <video src="../video/Michael-Jordan.mp4" autoplay loop muted preload="auto"></video>
+      <video
+        src="../video/Michael-Jordan.mp4"
+        autoplay
+        loop
+        muted
+        preload="auto"
+      ></video>
     </div>
     <div class="gradienteMichael"></div>
     <div class="textoPrincipal">
@@ -36,6 +42,34 @@
           height="40"
           width="60"
         />
+        <div class="containerBottonDelCarrito">
+          <input type="checkbox" id="buttonCarrito" />
+          <label for="buttonCarrito" class="buttonLabel"
+            ><iconify-icon
+              icon="fe:add-cart"
+              width="30"
+              height="30"
+            ></iconify-icon
+          ></label>
+          <div class="modalCarrito">
+            <div class="contenedorModal">
+              <div class="miniContenedorModal">
+                <h2>Carrito</h2>
+                <label for="buttonCarrito">X</label>
+              </div>
+              <div class="seccionesModal">
+                <h3>Imagen</h3>
+                <h3>Nombre</h3>
+                <h3>Precio Unidad</h3>
+                <h3>Unidades</h3>
+                <h3>Subtotal</h3>
+              </div>
+              <div class="carrito" id="contenedorCarro"></div>
+              <button type="submit" id="buttonComprar">Comprar</button>
+              <button type="reset" id="buttonClear">Limpiar</button>
+            </div>
+          </div>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -92,196 +126,19 @@
       <img src="../img/banner jordan.jpg" alt="banner de jordans 1" />
     </div>
     <h2 class="titulosDeJordans">Jordans One</h2>
-    <section class="jordan-1-4-6">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordan1.jpg"
-              class="card-img-top"
-              alt="Jordan Clasica"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 1 Retro Chicago</h3>
-              <p class="card-text">160 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordan2.png"
-              class="card-img-top"
-              alt="Jordan blue"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 1 University Blue</h3>
-              <p class="card-text">395 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordan3.png"
-              class="card-img-top"
-              alt="Jordan black and white"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 1 Black White</h3>
-              <p class="card-text">600 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordan4.png"
-              class="card-img-top"
-              alt="Jordan dior"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 1 Retro High Dior</h3>
-              <p class="card-text">7700 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="jordans1" class="row"></section>
 
     <div class="bannerJordans img-fluid">
       <img src="../img/banner jordans 4.jpg" alt="banner de jordans 4" />
     </div>
     <h2 class="titulosDeJordans">Jordans Four</h2>
-    <section class="jordan-1-4-6">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordans 4 black.jpg"
-              class="card-img-top"
-              alt="Jordan 4 black"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 4 black canvas</h3>
-              <p class="card-text">302 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordans 4 blue.jpg"
-              class="card-img-top"
-              alt="Jordan 4 blue"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 4 University Blue</h3>
-              <p class="card-text">436 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordans 4 white.jpg"
-              class="card-img-top"
-              alt="Jordan 4 white"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 4 White Oreo</h3>
-              <p class="card-text">445 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/jordans 4 shimmer.jpg"
-              class="card-img-top"
-              alt="Jordan 4 shimmer"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 4 Shimmer</h3>
-              <p class="card-text">380 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="jordans4" class="row"></section>
 
     <div class="bannerJordans img-fluid">
       <img src="../img/banner jordans 6.jpg" alt="banner de jordans 4" />
     </div>
     <h2 class="titulosDeJordans">Jordans Six</h2>
-    <section class="jordan-1-4-6">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/Jordan 6 Electric Green.jpg"
-              class="card-img-top"
-              alt="Jordan 6 Electric Green"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 6 Electric Green</h3>
-              <p class="card-text">200 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/Jordan 6 Georgetown.jpg"
-              class="card-img-top"
-              alt="Jordan 6 Georgetown"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 6 Georgetown</h3>
-              <p class="card-text">171 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/Jordan 6 Infrared Black.jpg"
-              class="card-img-top"
-              alt="Jordan 6 Infrared Black"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 6 Infrared Black</h3>
-              <p class="card-text">269 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
-          <div class="card border-danger" style="width: 18rem">
-            <img
-              src="../img/Jordan 6 Travis Scott.jpg"
-              class="card-img-top"
-              alt="Jordan 6 Travis Scott"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Jordan 6 Travis Scott</h3>
-              <p class="card-text">390 USD</p>
-              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="jordans6" class="row"></section>
 
     <footer class="footerMichael">
       <div class="logoFooter">
@@ -351,6 +208,8 @@
       </div>
     </footer>
 
+    <!-- JavaScript Propio -->
+    <script src="../js/script.js"></script>
     <!-- JavaScript BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
@@ -359,7 +218,7 @@
     ></script>
     <!-- JavaScript ICONIFY -->
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-    <!-- JavaScript Propio -->
-    <script src="../js/script.js"></script>
+    <!-- JavaScript sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

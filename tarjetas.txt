@@ -1,0 +1,186 @@
+<div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordan1.jpg"
+              class="card-img-top"
+              alt="Jordan Clasica"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 1 Retro Chicago</h3>
+              <p class="card-text">160 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordan2.png"
+              class="card-img-top"
+              alt="Jordan blue"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 1 University Blue</h3>
+              <p class="card-text">395 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordan3.png"
+              class="card-img-top"
+              alt="Jordan black and white"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 1 Black White</h3>
+              <p class="card-text">600 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordan4.png"
+              class="card-img-top"
+              alt="Jordan dior"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 1 Retro High Dior</h3>
+              <p class="card-text">7700 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordans 4 black.jpg"
+              class="card-img-top"
+              alt="Jordan 4 black"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 4 black canvas</h3>
+              <p class="card-text">302 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordans 4 blue.jpg"
+              class="card-img-top"
+              alt="Jordan 4 blue"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 4 University Blue</h3>
+              <p class="card-text">436 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordans 4 white.jpg"
+              class="card-img-top"
+              alt="Jordan 4 white"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 4 White Oreo</h3>
+              <p class="card-text">445 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/jordans 4 shimmer.jpg"
+              class="card-img-top"
+              alt="Jordan 4 shimmer"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 4 Shimmer</h3>
+              <p class="card-text">380 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/Jordan 6 Electric Green.jpg"
+              class="card-img-top"
+              alt="Jordan 6 Electric Green"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 6 Electric Green</h3>
+              <p class="card-text">200 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/Jordan 6 Georgetown.jpg"
+              class="card-img-top"
+              alt="Jordan 6 Georgetown"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 6 Georgetown</h3>
+              <p class="card-text">171 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/Jordan 6 Infrared Black.jpg"
+              class="card-img-top"
+              alt="Jordan 6 Infrared Black"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 6 Infrared Black</h3>
+              <p class="card-text">269 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 tarjetas">
+          <div class="card border-danger" style="width: 18rem">
+            <img
+              src="../img/Jordan 6 Travis Scott.jpg"
+              class="card-img-top"
+              alt="Jordan 6 Travis Scott"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Jordan 6 Travis Scott</h3>
+              <p class="card-text">390 USD</p>
+              <a href="#" class="btn btn-danger buttonTarjetas">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
