@@ -1,0 +1,314 @@
+[
+    {
+        "id": "Jordan-1-Red",
+        "nombre": "Jordan 1 Retro Chicago",
+        "precio": 160,
+        "imgURL": "../img/Michael-Jordan/jordan1.jpg"
+    },
+    {
+        "id": "Jordan-1-Blue",
+        "nombre": "Jordan 1 University Blue",
+        "precio": 395,
+        "imgURL": "../img/Michael-Jordan/jordan2.png"
+    },
+    {
+        "id": "Jordan-1-Black",
+        "nombre": "Jordan 1 Black White",
+        "precio": 600,
+        "imgURL": "../img/Michael-Jordan/jordan3.png"
+    },
+    {
+        "id": "Jordan-1-Dior",
+        "nombre": "Jordan 1 Retro High Dior",
+        "precio": 7700,
+        "imgURL": "../img/Michael-Jordan/jordan4.png"
+    },
+    {
+        "id": "Jordan-4-Black",
+        "nombre": "Jordan 4 black canvas",
+        "precio": 302,
+        "imgURL": "../img/Michael-Jordan/jordans 4 black.jpg"
+    },
+    {
+        "id": "Jordan-4-Blue",
+        "nombre": "Jordan 4 University Blue",
+        "precio": 436,
+        "imgURL": "../img/Michael-Jordan/jordans 4 blue.jpg"
+    },
+    {
+        "id": "Jordan-4-White",
+        "nombre": "Jordan 4 White Oreo",
+        "precio": 445,
+        "imgURL": "../img/Michael-Jordan/jordans 4 shimmer.jpg"
+    },
+    {
+        "id": "Jordan-4-Shimmer",
+        "nombre": "Jordan 4 Shimmer",
+        "precio": 380,
+        "imgURL": "../img/Michael-Jordan/jordans 4 white.jpg"
+    },
+    {
+        "id": "Jordan-6-Green",
+        "nombre": "Jordan 6 Electric Green",
+        "precio": 200,
+        "imgURL": "../img/Michael-Jordan/Jordan 6 Electric Green.jpg"
+    },
+    {
+        "id": "Jordan-6-Grey",
+        "nombre": "Jordan 6 Georgetown",
+        "precio": 171,
+        "imgURL": "../img/Michael-Jordan/Jordan 6 Georgetown.jpg"
+    },
+    {
+        "id": "Jordan-6-Black",
+        "nombre": "Jordan 6 Infrared Black",
+        "precio": 239,
+        "imgURL": "../img/Michael-Jordan/Jordan 6 Infrared Black.jpg"
+    },
+    {
+        "id": "Jordan-6-Travis-Scott",
+        "nombre": "Jordan 6 Travis Scott",
+        "precio": 390,
+        "imgURL": "../img/Michael-Jordan/Jordan 6 Travis Scott.jpg"
+    },
+    {
+        "id": "kobe-1-black-out",
+        "nombre": "Kobe 1 BLACK OUT",
+        "precio": 370,
+        "imgURL": "../img/Kobe-Bryant/Kobe 1 BLACK OUT.jpg"
+    },
+    {
+        "id": "kobe-1-mamba-day",
+        "nombre": "Kobe 1 MAMBA DAY",
+        "precio": 780,
+        "imgURL": "../img/Kobe-Bryant/Kobe 1 MAMBA DAY.jpg"
+    },
+    {
+        "id": "kobe-1-mpls",
+        "nombre": "Kobe 1 MPLS",
+        "precio": 300,
+        "imgURL": "../img/Kobe-Bryant/Kobe 1 MPLS.jpg"
+    },
+    {
+        "id": "kobe-1-proto-white",
+        "nombre": "Kobe 1 Proto White",
+        "precio": 400,
+        "imgURL": "../img/Kobe-Bryant/Kobe 1 PROTO WHITE.jpg"
+    },
+    {
+        "id": "kobe-4-four-rings",
+        "nombre": "Kobe 4 Four Rings",
+        "precio": 400,
+        "imgURL": "../img/Kobe-Bryant/Kobe 4 Four Rings.jpg"
+    },
+    {
+        "id": "kobe-4-away",
+        "nombre": "Kobe 4 Away",
+        "precio": 780,
+        "imgURL": "../img/Kobe-Bryant/Kobe 4 Away.jpg"
+    },
+    {
+        "id": "kobe-4-mpls",
+        "nombre": "Kobe 4 MPLS",
+        "precio": 800,
+        "imgURL": "../img/Kobe-Bryant/Kobe 4 Mpls.jpg"
+    },
+    {
+        "id": "kobe-4-wizenard",
+        "nombre": "Kobe 4 Wizenard",
+        "precio": 1270,
+        "imgURL": "../img/Kobe-Bryant/Kobe 4 Wizenard.jpg"
+    },
+    {
+        "id": "kobe-9-black-history",
+        "nombre": "Kobe 9 Black History",
+        "precio": 490,
+        "imgURL": "../img/Kobe-Bryant/Kobe 9 Black History Month.jpg"
+    },
+    {
+        "id": "kobe-9-draft-day-expression",
+        "nombre": "Kobe 9 Day Expression",
+        "precio": 575,
+        "imgURL": "../img/Kobe-Bryant/Kobe 9 Draft Day Expression.jpg"
+    },
+    {
+        "id": "kobe-9-fundamentals",
+        "nombre": "Kobe 9 Fundamentals",
+        "precio": 690,
+        "imgURL": "../img/Kobe-Bryant/Kobe 9 Fundamentals.jpg"
+    },
+    {
+        "id": "kobe-9-what-the-kobe",
+        "nombre": "Kobe 9 What the Kobe",
+        "precio": 600,
+        "imgURL": "../img/Kobe-Bryant/Kobe 9 What the Kobe.jpg"
+    },
+    {
+        "id": "kobe-ll-achilles-heel",
+        "nombre": "Kobe 11 Achilles Heel",
+        "precio": 490,
+        "imgURL": "../img/Kobe-Bryant/Kobe 11 Achilles Heel.jpg"
+    },
+    {
+        "id": "kobe-ll-liquid-lime",
+        "nombre": "Kobe 11 Liquid Lime",
+        "precio": 575,
+        "imgURL": "../img/Kobe-Bryant/Kobe 11 Liquid Lime.jpg"
+    },
+    {
+        "id": "kobe-ll-barcelona",
+        "nombre": "Kobe 11 Barcelona",
+        "precio": 690,
+        "imgURL": "../img/Kobe-Bryant/Kobe 11 Barcelona.jpg"
+    },
+    {
+        "id": "kobe-ll-last-emperor",
+        "nombre": "Kobe 11 Last Emperor",
+        "precio": 600,
+        "imgURL": "../img/Kobe-Bryant/Kobe 11 Last Emperor.jpg"
+    },
+    {
+        "id": "kyrie-3-candy-apple(Kyrie3-seccion1)",
+        "nombre": "Kyrie 3 CANDY APPLE",
+        "precio": 225,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 CANDY APPLE.jpg"
+    },
+    {
+        "id": "kyrie-3-finals(Kyrie3-seccion1)",
+        "nombre": "Kyrie 3 FINALS",
+        "precio": 2000,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 finals.jpg"
+    },
+    {
+        "id": "kyrie-3-flip-the-switch(Kyrie3-seccion1)",
+        "nombre": "Kyrie 3 THE SWITCH",
+        "precio": 384,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 FLIP THE SWITCH.jpg"
+    },
+    {
+        "id": "kyrie-3-marble(Kyrie3-seccion1)",
+        "nombre": "Kyrie 3 MARBLE",
+        "precio": 395,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 MARBLE.jpg"
+    },
+    {
+        "id": "kyrie-3-cool-grey(Kyrie3-seccion2)",
+        "nombre": "Kyrie 3  COOL GREY",
+        "precio": 349,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 COOL GREY.jpg"
+    },
+    {
+        "id": "kyrie-3-tyffany(Kyrie3-seccion2)",
+        "nombre": "Kyrie 3  TIFFANY",
+        "precio": 503,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 TIFFANY.jpg"
+    },
+    {
+        "id": "kyrie-3-mac-and-cheese(Kyrie3-seccion2)",
+        "nombre": "Kyrie 3 MAC CHEESE",
+        "precio": 220,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 MAC AND CHEESE.jpg"
+    },
+    {
+        "id": "kyrie-3-mamba-mentality(Kyrie3-seccion2)",
+        "nombre": "Kyrie 3  MENTALITY",
+        "precio": 400,
+        "imgURL": "../img/Kyrie-Irving/kyrie 3 MAMBA MENTALITY.jpg"
+    },
+    {
+        "id": "kyrie-4-black-white(Kyrie4-seccion1)",
+        "nombre": "Kyrie 4 BLACK WHITE",
+        "precio": 225,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 BLACK WHITE.jpg"
+    },
+    {
+        "id": "kyrie-4-halloween(Kyrie4-seccion1)",
+        "nombre": "Kyrie 4 HALLOWEEN",
+        "precio": 2000,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 HALLOWEEN.jpg"
+    },
+    {
+        "id": "kyrie-4-red-carpet(Kyrie4-seccion1)",
+        "nombre": "Kyrie 4 RED CARPET",
+        "precio": 508,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 RED CARPET.jpg"
+    },
+    {
+        "id": "kyrie-4-sample(Kyrie4-seccion1)",
+        "nombre": "Kyrie 4 SAMPLE",
+        "precio": 395,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 SAMPLE.jpg"
+    },
+    {
+        "id": "kyrie-4-obsidian(Kyrie4-seccion2)",
+        "nombre": "Kyrie 4 OBSIDIAN",
+        "precio": 999,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 OBSIDIAN.jpg"
+    },
+    {
+        "id": "kyrie-4-bhm(Kyrie4-seccion2)",
+        "nombre": "Kyrie 4 BHM",
+        "precio": 250,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 BHM.jpg"
+    },
+    {
+        "id": "kyrie-4-red-power-is-female(Kyrie4-seccion2)",
+        "nombre": "Kyrie 4 POWER FEMALE",
+        "precio": 628,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 POWER IS FEMALE.jpg"
+    },
+    {
+        "id": "kyrie-4-ncaa-tournament(Kyrie4-seccion2)",
+        "nombre": "Kyrie 4 NCAA",
+        "precio": 780,
+        "imgURL": "../img/Kyrie-Irving/kyrie 4 NCAA TOURNAMENT.jpg"
+    },
+    {
+        "id": "kyrie-5-galaxy(Kyrie5-seccion1)",
+        "nombre": "Kyrie 5 GALAXY",
+        "precio": 225,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 GALAXY.jpg"
+    },
+    {
+        "id": "kyrie-5-keep-sue-fresh(Kyrie5-seccion1)",
+        "nombre": "Kyrie 5 KEEP SUE FRESH",
+        "precio": 2000,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 KEEP SUE FRESH.jpg"
+    },
+    {
+        "id": "kyrie-5-neon-sole(Kyrie5-seccion1)",
+        "nombre": "Kyrie 5 NEON SOLE",
+        "precio": 508,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 NEON SOLE.jpg"
+    },
+    {
+        "id": "kyrie-5-patrick(Kyrie5-seccion1)",
+        "nombre": "Kyrie 5 PATRICK",
+        "precio": 395,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 PATRICK.jpg"
+    },
+    {
+        "id": "kyrie-5-pineapple-house(Kyrie5-seccion2)",
+        "nombre": "Kyrie 5 PINEAPLE HOUSE",
+        "precio": 999,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 PINEAPPLE HOUSE.jpg"
+    },
+    {
+        "id": "kyrie-5-spongebob(Kyrie5-seccion2)",
+        "nombre": "Kyrie 5 SPONGEBOB",
+        "precio": 250,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 SPONGEBOB.jpg"
+    },
+    {
+        "id": "kyrie-5-squidward(Kyrie5-seccion2)",
+        "nombre": "Kyrie 5 SQUIDWARD",
+        "precio": 628,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 SQUIDWARD.jpg"
+    },
+    {
+        "id": "kyrie-5-ufo(Kyrie5-seccion2)",
+        "nombre": "Kyrie 5 UFO",
+        "precio": 780,
+        "imgURL": "../img/Kyrie-Irving/kyrie 5 UFO.jpg"
+    }
+]

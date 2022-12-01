@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIKE-Kobe</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
     <!-- CSS BOOTSTRAP -->
     <link
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body class="bodyKobe">
-    <div class="videoPrincipal">
+    <div class="videoPrincipalKobe">
       <video src="../video/Kobe.mp4" autoplay loop muted preload="auto"></video>
     </div>
     <div class="gradienteKobe"></div>
@@ -31,11 +32,40 @@
     <nav class="navbar navbar-expand-lg navKobe">
       <div class="container-fluid">
         <img
-          src="../img/Kobe-bryant-Logo.png"
+          src="../img/Kobe-Bryant/Kobe-bryant-Logo.png"
           alt="logo-navbar"
           height="40"
           width="60"
         />
+        <div class="containerBottonDelCarrito">
+          <input type="checkbox" id="buttonCarrito" />
+          <label for="buttonCarrito" class="buttonLabel"
+            ><iconify-icon
+              icon="fe:add-cart"
+              width="30"
+              height="30"
+            ></iconify-icon
+          ></label>
+          <div class="modalCarrito">
+            <div class="contenedorModal">
+              <div class="miniContenedorModal">
+                <h2>Carrito</h2>
+                <label for="buttonCarrito">X</label>
+              </div>
+              <div class="seccionesModal">
+                <h3>Imagen</h3>
+                <h3>Nombre</h3>
+                <h3>Precio Unidad</h3>
+                <h3>Unidades</h3>
+                <h3>Subtotal</h3>
+              </div>
+              <div class="carrito" id="contenedorCarro"></div>
+              <div id="total" class="contenedorTotal"></div>
+              <button type="submit" id="buttonComprar">Comprar</button>
+              <button type="reset" id="buttonClear">Limpiar</button>
+            </div>
+          </div>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -65,29 +95,56 @@
       <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 textoIntoductivoKobe">
         <h2>Kobe Bryant</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-          dolores, neque dicta doloribus vitae, explicabo, ab ratione doloremque
-          itaque natus suscipit magnam quaerat? Perspiciatis nam, voluptates
-          temporibus impedit maxime voluptate.
+          Bryant dio el salto a la NBA directamente desde el instituto Lower
+          Merion de Filadelfia en 1996, año en el que fue seleccionado por los
+          Charlotte Hornets en el Draft, pero fue traspasado inmediatamente a
+          los Lakers. Junto con Shaquille O'Neal, llevó a su equipo a la
+          consecución de tres títulos consecutivos de la NBA entre 2000 y 2002.
+          Tras la salida de O'Neal en 2004, Bryant se convirtió en la estrella
+          en solitario del equipo angelino y entre 2005 y 2007 logró varias
+          plusmarcas de anotación. Después de perder las Finales en 2008, llevó
+          a los Lakers a la obtención de dos campeonatos consecutivos en 2009 y
+          2010. Las lesiones lastraron sus últimos años de carrera y se retiró
+          al término de la temporada 2015-16.
         </p>
       </div>
       <div
         class="col-sm-12 col-md-5 col-lg-5 col-xl-5 ms-auto textoIntoductivoKobe"
       >
-        <h2>Kobe Bryant</h2>
+        <h2>Sneakers</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-          dolores, neque dicta doloribus vitae, explicabo, ab ratione doloremque
-          itaque natus suscipit magnam quaerat? Perspiciatis nam, voluptates
-          temporibus impedit maxime voluptate.
+          De entre todos los kicks que han resultado de diferentes
+          colaboraciones entre marcas de diseño y estrellas del deporte, los
+          tenis de Kobe Bryant son de los más espectaculares en toda la
+          industria. Sí, están por supuesto los Jordan coronando esta categoría
+          de sneakers; pero es necesario que sepas que existen otros modelos y
+          alianzas que también fueron y siguen siendo importantes para la
+          cultura popular y el mundo de los zapatos deportivos. Cuyas siluetas y
+          conceptos revolucionaron de igual manera la forma en que vestimos,
+          prestando cada día mayor atención a los preceptos del streetwear.
         </p>
       </div>
     </div>
 
+    <div class="bannerJordans img-fluid">
+      <img src="../img/Kobe-Bryant/banner de nike kobes.jpg" alt="" />
+    </div>
+    <h2 class="titulosDeKobe">Kobe 1</h2>
+    <section id="kobe1" class="row"></section>
+
+    <h2 class="titulosDeKobe">Kobe 4</h2>
+    <section id="kobe4" class="row"></section>
+
+    <h2 class="titulosDeKobe">Kobe 9</h2>
+    <section id="kobe9" class="row"></section>
+
+    <h2 class="titulosDeKobe">Kobe 11</h2>
+    <section id="kobe11" class="row"></section>
+
     <footer class="footerKobe">
       <div class="logoFooter">
         <img
-          src="../img/Kobe-bryant-Logo.png"
+          src="../img/Kobe-Bryant/Kobe-bryant-Logo.png"
           alt="logo-navbar"
           height="40"
           width="60"
@@ -151,14 +208,19 @@
         <h3>&copy; copyright | Isaac Berrio | 2022</h3>
       </div>
     </footer>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!-- JavaScript BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <!-- JavaScript sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- ICONIFY -->
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="../js/funciones.js"></script>
+    <!-- JavaScript Propio -->
+    <script src="../js/scriptKobe.js"></script>
   </body>
 </html>

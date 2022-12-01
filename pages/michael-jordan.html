@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIKE | Jordan</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
     <!-- CSS BOOTSTRAP -->
     <link
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body class="bodyMichael">
-    <div class="videoPrincipal">
+    <div class="videoPrincipalJordan">
       <video
         src="../video/Michael-Jordan.mp4"
         autoplay
@@ -37,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navMichael">
       <div class="container-fluid">
         <img
-          src="../img/Michael-logo.png"
+          src="../img/Michael-Jordan/Michael-logo.png"
           alt="logo-navbar"
           height="40"
           width="60"
@@ -65,6 +66,7 @@
                 <h3>Subtotal</h3>
               </div>
               <div class="carrito" id="contenedorCarro"></div>
+              <div id="total" class="contenedorTotal"></div>
               <button type="submit" id="buttonComprar">Comprar</button>
               <button type="reset" id="buttonClear">Limpiar</button>
             </div>
@@ -103,39 +105,44 @@
       <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 textoIntoductivoMichael">
         <h2>Michael Jordan</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-          dolores, neque dicta doloribus vitae, explicabo, ab ratione doloremque
-          itaque natus suscipit magnam quaerat? Perspiciatis nam, voluptates
-          temporibus impedit maxime voluptate.
+          Ganó 6 anillos con Chicago Bulls, promediando 30,1 puntos por partido
+          en toda su carrera deportiva, el mayor promedio en la historia de la
+          liga. También ganó 10 títulos de máximo anotador, 5 MVP de la
+          temporada, 6 MVP de las Finales; fue nombrado en el mejor quinteto de
+          la NBA en diez ocasiones, en el defensivo nueve veces, líder en robos
+          de balón durante tres años y un premio al mejor defensor de la
+          temporada.
         </p>
       </div>
       <div
         class="col-sm-12 col-md-5 col-lg-5 col-xl-5 ms-auto textoIntoductivoMichael"
       >
-        <h2>Michael Jordan</h2>
+        <h2>Sneakers</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-          dolores, neque dicta doloribus vitae, explicabo, ab ratione doloremque
-          itaque natus suscipit magnam quaerat? Perspiciatis nam, voluptates
-          temporibus impedit maxime voluptate.
+          El 1 de abril de 1985 Nike sacaba al mercado unas zapatillas blancas,
+          rojas y negras que ya son historia del deporte: las Jordan 1. Unas
+          botas que el jugador ya había usado en algunos partidos y en el
+          concurso de mates de aquella misma temporada y que salieron con un
+          precio de venta al público de 65 dólares. Un valor de mercado que hoy
+          se ha multiplicado por tres.
         </p>
       </div>
     </div>
 
     <div class="bannerJordans img-fluid">
-      <img src="../img/banner jordan.jpg" alt="banner de jordans 1" />
+      <img src="../img/Michael-Jordan/banner jordan.jpg" alt="banner de jordans 1" />
     </div>
     <h2 class="titulosDeJordans">Jordans One</h2>
     <section id="jordans1" class="row"></section>
 
     <div class="bannerJordans img-fluid">
-      <img src="../img/banner jordans 4.jpg" alt="banner de jordans 4" />
+      <img src="../img/Michael-Jordan/banner jordans 4.jpg" alt="banner de jordans 4" />
     </div>
     <h2 class="titulosDeJordans">Jordans Four</h2>
     <section id="jordans4" class="row"></section>
 
     <div class="bannerJordans img-fluid">
-      <img src="../img/banner jordans 6.jpg" alt="banner de jordans 4" />
+      <img src="../img/Michael-Jordan/banner jordans 6.jpg" alt="banner de jordans 4" />
     </div>
     <h2 class="titulosDeJordans">Jordans Six</h2>
     <section id="jordans6" class="row"></section>
@@ -143,7 +150,7 @@
     <footer class="footerMichael">
       <div class="logoFooter">
         <img
-          src="../img/Michael-logo.png"
+          src="../img/Michael-Jordan/Michael-logo.png"
           alt="logo-navbar"
           height="40"
           width="60"
@@ -207,9 +214,7 @@
         <h3>&copy; copyright | Isaac Berrio | 2022</h3>
       </div>
     </footer>
-
-    <!-- JavaScript Propio -->
-    <script src="../js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!-- JavaScript BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
@@ -220,5 +225,9 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <!-- JavaScript sweetalert2 -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Funciones -->
+    <script src="../js/funciones.js"></script>
+    <!-- JavaScript Propio -->
+    <script src="../js/scriptJordan.js"></script>
   </body>
 </html>

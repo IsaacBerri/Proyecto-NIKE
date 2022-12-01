@@ -1,31 +1,224 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIKE-Jordan</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <header>
-        <div class="videoPrincipal">
-            <video src="../video/Michael-Jordan.mp4" autoplay loop muted></video>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+  </head>
+  <body class="bodyIrving">
+    <div class="videoPrincipalIrving">
+      <video
+        src="../video/Irving.mp4"
+        autoplay
+        loop
+        muted
+        preload="auto"
+      ></video>
+    </div>
+    <div class="gradienteIrving"></div>
+    <div class="textoPrincipalIrving">
+      <h1>Kyrie Irving</h1>
+      <p>"No se necesita reloj despertador. ¡Mi pasión me despierta!"</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navIrving">
+      <div class="container-fluid">
+        <img
+          src="../img/Kyrie-Irving/Kyrie-Irving-Logo.png"
+          alt="logo-navbar"
+          height="40"
+          width="60"
+        />
+        <div class="containerBottonDelCarrito">
+          <input type="checkbox" id="buttonCarrito" />
+          <label for="buttonCarrito" class="buttonLabel"
+            ><iconify-icon
+              icon="fe:add-cart"
+              width="30"
+              height="30"
+            ></iconify-icon
+          ></label>
+          <div class="modalCarrito">
+            <div class="contenedorModal">
+              <div class="miniContenedorModal">
+                <h2>Carrito</h2>
+                <label for="buttonCarrito">X</label>
+              </div>
+              <div class="seccionesModal">
+                <h3>Imagen</h3>
+                <h3>Nombre</h3>
+                <h3>Precio Unidad</h3>
+                <h3>Unidades</h3>
+                <h3>Subtotal</h3>
+              </div>
+              <div class="carrito" id="contenedorCarro"></div>
+              <div id="total" class="contenedorTotal"></div>
+              <button type="submit" id="buttonComprar">Comprar</button>
+              <button type="reset" id="buttonClear">Limpiar</button>
+            </div>
+          </div>
         </div>
-        <div class="gradiente"></div>
-        <div class="textoPrincipal">
-            <h1>Michael Jordan</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link" href="michael-jordan.html">Jordans</a>
+            <a class="nav-link" href="kobe-bryant.html">Kobes</a>
+            <a class="nav-link active" href="kyrie-irving.html">Irvings</a>
+            <a class="nav-link" href="lebron-james.html">Lebron</a>
+          </div>
         </div>
-    </header>
-    <nav>
-        <img src="../img/Jordan 1.png" alt="logo-navbar" width="65" height="65" />
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="michael-jordan.html">Jordans</a></li>
-            <li><a href="kobe-bryant.html">Koves</a></li>
-            <li><a href="kyrie-irving.html">Irvings</a></li>
-            <li><a href="lebron-james.html">Lebron</a></li>
-        </ul>
+      </div>
     </nav>
-</body>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 textoIntoductivoIrving">
+        <h2>Kobe Bryant</h2>
+        <p>
+          Kyrie Andrew Irving (23 de marzo de 1992) jugador de baloncesto
+          profesional, actualmente es jugador del Boston Celtics. Nació en
+          Melbourne, Victoria, Australia, aunque es de descendencia
+          norteamericana.
+        </p>
+      </div>
+      <div
+        class="col-sm-12 col-md-5 col-lg-5 col-xl-5 ms-auto textoIntoductivoIrving"
+      >
+        <h2>Sneakers</h2>
+        <p>
+          Kyrie Irving, el base armador de los Brooklyn Nets, tiene movimientos
+          impresionantes en la cancha, pero a través de su colaboración con
+          Nike, también encontró su pasión por el diseño de calzado de
+          baloncesto. Irving ha desarrollado una relación de trabajo única con
+          el equipo de diseño de Nike, donde lo alientan a pensar en la ciencia
+          y él los empuja a pensar en el arte. El resultado es una línea
+          exclusiva de calzado que combina la innovación de Nike con toques
+          personales que honran la educación de Irving.
+        </p>
+      </div>
+    </div>
+
+    <div class="bannerJordans img-fluid">
+      <img src="../img/Kyrie-Irving/banner de kyrie irving 3.jpg" alt="" />
+    </div>
+    <h2 class="titulosDeIrving">Irving 3</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <section id="irving3" class="row"></section>
+        </div>
+        <div class="swiper-slide">
+          <section id="irving3-section2" class="row"></section>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="bannerJordans img-fluid">
+      <img src="../img/Kyrie-Irving/banner de kyrie irving 4.jpg" alt="" />
+    </div>
+    <h2 class="titulosDeIrving">Irving 4</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <section id="irving4" class="row"></section>
+        </div>
+        <div class="swiper-slide">
+          <section id="irving4-section2" class="row"></section>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="bannerJordans img-fluid">
+      <img src="../img/Kyrie-Irving/banner de kyrie irving 5.jpg" alt="" />
+    </div>
+    <h2 class="titulosDeIrving">Irving 5</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <section id="irving5" class="row"></section>
+        </div>
+        <div class="swiper-slide">
+          <section id="irving5-section2" class="row"></section>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- toastify -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- ICONIFY -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="../js/funciones.js"></script>
+    <script src="../js/scriptirving.js"></script>
+  </body>
 </html>

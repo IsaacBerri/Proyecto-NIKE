@@ -20,6 +20,13 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
   font-family: 'Oswald', sans-serif;
 }
+.bodyIrving {
+  background-color: #5F5F5F;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(228,683,347)'%3E%3Cstop offset='0' stop-color='%235F5F5F'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
 header a{
     text-decoration: none;
 }
@@ -37,7 +44,7 @@ header a{
 }
 
 #Caja1{
-    background-image: url(../img/michael.jpg);
+    background-image: url(../img/Michael-Jordan/michael.jpg);
     background-position: center;
     background-size: cover;
     grid-area: Caja1;
@@ -47,7 +54,7 @@ header a{
     text-shadow: 1px -1px 0 red, -1px 2px 1px red, -2px 4px 1px red, -3px 6px 1px red, -4px 8px 1px rgba(206,89,55,0);
 }
 #Caja2{
-    background-image: url(../img/kobe.jpg);
+    background-image: url(../img/Kobe-Bryant/kobe.jpg);
     background-position: center;
     background-size: cover;
     grid-area: Caja2;
@@ -57,7 +64,7 @@ header a{
     text-shadow: 1px -1px 0 purple, -1px 2px 1px purple, -2px 4px 1px purple, -3px 6px 1px purple, -4px 8px 1px rgba(206,89,55,0);
 }
 #Caja3{
-    background-image: url(../img/irving.jpg);
+    background-image: url(../img/Kyrie-Irving/irving.jpg);
     background-position: center;
     background-size: cover;
     grid-area: Caja3;
@@ -67,7 +74,7 @@ header a{
     text-shadow: 1px -1px 0 grey, -1px 2px 1px gray, -2px 4px 1px grey, -3px 6px 1px gray, -4px 8px 1px rgba(206,89,55,0);
 }
 #Caja4{
-    background-image: url(../img/lebron.jpg);
+    background-image: url(../img/Lebron-James/lebron.jpg);
     background-position: center;
     background-size: cover;
     grid-area: Caja4;
@@ -104,11 +111,24 @@ header{
 }
 
 /***********Inicio Del CSS De michael-jordan.html***********/
-.videoPrincipal{
+.bodyMichael::-webkit-scrollbar {
+  width: 12px;
+}
+
+.bodyMichael::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.bodyMichael::-webkit-scrollbar-thumb {
+  background-color: rgb(70, 9, 9);
+  border-radius: 10px;
+  border: 3px inset red;
+}
+.videoPrincipalJordan{
     position: relative;
     height: 600px;
 }
-.videoPrincipal video{
+.videoPrincipalJordan video {
     width: 100%;
     height: 600px;
     object-fit: cover;
@@ -150,7 +170,7 @@ header{
 }
 .contenedorModal {
   width: 1000px;
-  height: 450px;
+  height: 500px;
   background-color: white;
   margin: auto;
   box-shadow: 0px 0px 300px 200px rgba(0,0,0,1);
@@ -182,8 +202,23 @@ header{
 .carrito {
   border: black 2px solid;
   overflow-y: scroll;
+
   height: 250px;
 }
+.carrito::-webkit-scrollbar {
+  width: 12px;
+}
+
+.carrito::-webkit-scrollbar-track {
+  background: black;
+}
+
+.carrito::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  border: 3px inset grey;
+}
+
 .itemCarrito {
   display: flex;
   justify-content: space-around;
@@ -192,6 +227,17 @@ header{
   height: 50px;
   width: 50px;
   margin-bottom: 10px;
+}
+.contenedorTotal {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.itemTotal {
+  font-size: 30px;
+  padding: 10px;
+  color: #000000;
 }
 .textoPrincipal{
     position: absolute;
@@ -367,6 +413,8 @@ header{
 .bannerJordans img{
   width: 100%;
   height: 500px;
+  object-fit: cover;
+  
 }
 .titulosDeJordans{
   color: black;
@@ -380,15 +428,20 @@ header{
     align-items: center;
     margin-top: 30px;
 }
+.card {
+  width: 18rem;
+}
 .tarjetas{
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+  text-align: center;
 }
 .tarjetas img{
   padding: 10px;
 }
-.buttonTarjetas{
+.buttonTarjetasMichael{
+    color: #000000;
     padding: 5px;
     background-color: #FF0000;
 }
@@ -439,6 +492,28 @@ header{
 /***********Fin Del CSS De michael-jordan.html***********/
 
 /***********Inicio Del CSS De kobe-bryant.html***********/
+.bodyKobe::-webkit-scrollbar {
+  width: 12px;
+}
+
+.bodyKobe::-webkit-scrollbar-track {
+  background: black;
+}
+
+.bodyKobe::-webkit-scrollbar-thumb {
+  background-color: #5c0075;
+  border-radius: 10px;
+  border: 3px inset #e100ff;
+}
+.videoPrincipalKobe{
+  position: relative;
+  height: 600px;
+}
+.videoPrincipalKobe video {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
 .gradienteKobe{
   position: absolute;
   top: 0;
@@ -464,6 +539,12 @@ header{
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+.titulosDeKobe{
+  color: black;
+  font-size: 3rem;
+  animation: textKobe linear 2000ms infinite;
+  margin: 0px 30px 30px 30px;
 }
 @keyframes textKobe {
   0% {
@@ -539,7 +620,7 @@ header{
 }
 .textoIntoductivoKobe{
   text-align: center;
-    height: 300px;
+    height: 390px;
     padding: 30px;
     margin: 50px;
     color: black;
@@ -617,7 +698,21 @@ header{
   color: white;
 }
 
+.buttonTarjetasKobe{
+  color: #000000;
+  padding: 5px;
+  background-color: purple;
+}
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
 
 .footerKobe{
   width: 100%;
@@ -639,6 +734,249 @@ header{
 .copyrightKobe h3{
   font-size: 15px;
 }
+/***********Fin Del CSS De kobe-bryant.html***********/
+
+/***********Inicio Del CSS De kyrie-irving.html***********/
+.bodyIrving::-webkit-scrollbar {
+  width: 12px;
+}
+
+.bodyIrving::-webkit-scrollbar-track {
+  background: grey;
+}
+
+.bodyIrving::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+  border: 3px inset white;
+}
+.videoPrincipalIrving{
+  position: relative;
+  height: 600px;
+}
+.videoPrincipalIrving video {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.gradienteIrving{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(grey, black);
+  opacity: 0.6;
+}
+.textoPrincipalIrving{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+}
+.textoPrincipalIrving h1{
+  color: white;
+  font-size: 60px;
+  height: 300px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 100%;
+  animation: textIrving linear 2000ms infinite;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.titulosDeIrving{
+  color: white;
+  font-size: 3rem;
+  animation: textIrving linear 2000ms infinite;
+  margin: 30px;
+}
+@keyframes textIrving {
+  0% {
+    text-shadow:
+      4px -4px 0 grey,
+      3px -3px 0 grey,
+      2px -2px 0 grey,
+      1px -1px 0 grey,
+      -4px 4px 0 #000000,
+      -3px 3px 0 #000000,
+      -2px 2px 0 #000000,
+      -1px 1px 0 #000000
+    ;
+  }
+  25% {
+    text-shadow:
+      -4px -4px 0 #000000,
+      -3px -3px 0 #000000,
+      -2px -2px 0 #000000,
+      -1px -1px 0 #000000,
+      4px 4px 0 grey,
+      3px 3px 0 grey,
+      2px 2px 0 grey,
+      1px 1px 0 grey
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 grey,
+      -3px 3px 0 grey,
+      -2px 2px 0 grey,
+      -1px 1px 0 grey,
+      4px -4px 0 #000000,
+      3px -3px 0 #000000,
+      2px -2px 0 #000000,
+      1px -1px 0 #000000
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 #000000,
+      3px 3px 0 #000000,
+      2px 2px 0 #000000,
+      1px 1px 0 #000000,
+      -4px -4px 0 grey,
+      -3px -3px 0 grey,
+      -2px -2px 0 grey,
+      -1px -1px 0 grey
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 grey,
+      3px -3px 0 grey,
+      2px -2px 0 grey,
+      1px -1px 0 grey,
+      -4px 4px 0 #000000,
+      -3px 3px 0 #000000,
+      -2px 2px 0 #000000,
+      -1px 1px 0 #000000
+    ;
+  }
+}
+.textoPrincipalIrving p{
+  display: flex;
+  height: 100x;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+.navIrving{
+  background-color: grey;
+}
+.textoIntoductivoIrving{
+  text-align: center;
+    height: 300px;
+    padding: 30px;
+    margin: 50px;
+    color: black;
+    border: 2px black solid;
+    animation: boxIrving linear 2000ms infinite;
+}
+@keyframes boxIrving {
+  0% {
+    box-shadow:
+      4px -4px 0 grey,
+      3px -3px 0 grey,
+      2px -2px 0 grey,
+      1px -1px 0 grey,
+      -4px 4px 0 white,
+      -3px 3px 0 white,
+      -2px 2px 0 white,
+      -1px 1px 0 white
+    ;
+  }
+  25% {
+    box-shadow:
+      -4px -4px 0 white,
+      -3px -3px 0 white,
+      -2px -2px 0 white,
+      -1px -1px 0 white,
+      4px 4px 0 grey,
+      3px 3px 0 grey,
+      2px 2px 0 grey,
+      1px 1px 0 grey
+    ;
+  }
+  50% {
+    box-shadow:
+      -4px 4px 0 grey,
+      -3px 3px 0 grey,
+      -2px 2px 0 grey,
+      -1px 1px 0 grey,
+      4px -4px 0 white,
+      3px -3px 0 white,
+      2px -2px 0 white,
+      1px -1px 0 white
+    ;
+  }
+  75% {
+    box-shadow:
+      4px 4px 0 white,
+      3px 3px 0 white,
+      2px 2px 0 white,
+      1px 1px 0 white,
+      -4px -4px 0 grey,
+      -3px -3px 0 grey,
+      -2px -2px 0 grey,
+      -1px -1px 0 grey
+    ;
+  }
+  100% {
+    box-shadow:
+      4px -4px 0 grey,
+      3px -3px 0 grey,
+      2px -2px 0 grey,
+      1px -1px 0 grey,
+      -4px 4px 0 white,
+      -3px 3px 0 white,
+      -2px 2px 0 white,
+      -1px 1px 0 white
+    ;
+  }
+}
+.textoIntoductivoIrving h2{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.textoIntoductivoIrving p{
+  color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 70px;
+}
+
+
+.buttonTarjetasIrving{
+  color: grey;
+  padding: 5px;
+  background-color: black;
+}
+.footerIrving{
+  width: 100%;
+  height: 330px;
+  background-color: purple;
+  position: relative;
+}
+
+.copyrightIrving{
+  background-color: purple;
+  color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: #000000 2px solid;
+  border-bottom: #000000 2px solid;
+  padding: 5px;
+}
+.copyrightIrving h3{
+  font-size: 15px;
+}
+/***********Fin Del CSS De kyrie-irving.html***********/
+
 
 /**************Media-queris**************/
 
@@ -658,16 +996,98 @@ header{
     #Caja2{
       background-position: top;
     }
-    .textoPrincipal h1{
-      font-size: 35px;
+    .videoPrincipalJordan video {
+      display: none;
     }
-    .textoPrincipal p{
-      font-size: 20px;
+    .videoPrincipalJordan {
+      background-image: url(../img/Michael-Jordan/banner\ de\ jordan\ mediaqueri.jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+    }
+    .videoPrincipalKobe video {
+      display: none;
+    }
+    .videoPrincipalKobe {
+      background-image: url(../img/Kobe-Bryant/banner\ de\ kobe\ mediaquieri.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+    }
+    .videoPrincipalIrving video {
+      display: none;
+    }
+    .videoPrincipalIrving {
+      background-image: url(../img/Kyrie-Irving/banner\ de\ irving\ mediaquieri.jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+    }
+    .gradienteMichael {
+      display: none;
+    }
+    .gradienteKobe {
+      display: none;
+    }
+    .gradienteIrving {
+      display: none;
+    }
+    .containerBottonDelCarrito {
+      width: 20%;
+    }
+    .modalCarrito {
+      left: 0;
+    }
+    .contenedorModal {
+      width: 390px;
+      height: 500px;
+    }
+    .itemCarrito {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+    .itemCarrito img {
+      height: 40px;
+      width: 40px;
+    }
+    .textoPrincipal{
+      display: none;
+    }
+    .textoPrincipalKobe {
+      display: none;
+    }
+    .textoPrincipalIrving {
+      display: none;
     }
     .textoIntoductivoMichael{
+      height: 360px;
+      margin: 40px 0 40px 0;
+    }
+    .textoIntoductivoKobe{
+      height: 500px;
+      margin: 40px 0 40px 0;
+    }
+    .textoIntoductivoIrving{
+      height: 370px;
       margin: 40px 0 40px 0;
     }
     .bannerJordans img{
       height: 250px;
+    }
+    .card {
+      width: 12rem;
+    }
+    .card h3 {
+      font-size: 15px;
+    }
+    .tarjetas {
+      margin-bottom: 20px;
+    }
+    .swiper {
+      height: 600px;
+    }
+    .redesSociales {
+      display: flex;
+      flex-direction: column;
     }
 }
