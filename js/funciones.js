@@ -116,6 +116,6 @@ function tarjetas(array, cajaContenedora, filtro, claseButton) {
       contenedorCarrito.innerHTML = ``;
       totalDelCarrito.innerHTML = `
       <h4 class="itemTotal">Total:</h4>
-    <p class="itemTotal">0</p>`;
+    <p class="itemTotal">0 $</p>`;
     };
   }

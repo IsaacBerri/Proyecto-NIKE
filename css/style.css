@@ -156,8 +156,9 @@ header{
 }
 .modalCarrito {
   position: fixed;
+  left: 0%;
   top: 0;
-  left: 12%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   transition: all 500ms ease;
   opacity: 0;
@@ -169,10 +170,9 @@ header{
   visibility: visible;
 }
 .contenedorModal {
-  width: 1000px;
+  width: 100%;
   height: 500px;
   background-color: white;
-  margin: auto;
   box-shadow: 0px 0px 300px 200px rgba(0,0,0,1);
   transition: all 500ms ease;
 }
@@ -958,12 +958,12 @@ header{
 .footerIrving{
   width: 100%;
   height: 330px;
-  background-color: purple;
+  background-color: grey;
   position: relative;
 }
 
 .copyrightIrving{
-  background-color: purple;
+  background-color: grey;
   color: #000000;
   width: 100%;
   display: flex;
@@ -1035,11 +1035,7 @@ header{
     .containerBottonDelCarrito {
       width: 20%;
     }
-    .modalCarrito {
-      left: 0;
-    }
     .contenedorModal {
-      width: 390px;
       height: 500px;
     }
     .itemCarrito {
